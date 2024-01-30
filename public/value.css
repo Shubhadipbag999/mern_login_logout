@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: auto;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  height: 65vh;
+  width: 30vw;
+  background-color: rgb(198, 125, 74);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form > .inputF {
+  height: 7vh;
+  width: 90%;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+}
+
+form > .submitBtn {
+  height: 7vh;
+  width: 90%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.divmain {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
